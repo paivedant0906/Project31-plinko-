@@ -21,7 +21,7 @@ class Particle {
        
         fill(this.color)
         ellipseMode(CENTER);
-        ellipse(this.x, this.y,this.r,this.r);
+        ellipse(pos.x,pos.y,this.r,this.r);
      
         
     }
