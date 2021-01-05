@@ -84,7 +84,7 @@ function draw() {
   //particle=new Particle(60,10,6)
  
   //particle.x=random(20,400)
-  if(frameCount%20===0){
+  if(frameCount%60===0){
     particle.push(new Particle(random(width/2-10,width/2+10),30,10));
   }
   for(var z=0; z<particle.length; z++){
